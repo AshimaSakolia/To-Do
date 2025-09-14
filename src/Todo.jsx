@@ -33,6 +33,7 @@ if(index < tasks.length-1){
 return( 
     <div className="to-do-list">
         <h1>TO-DO-LIST!</h1>
+        <br/><h6>You can do it!</h6>
 <div className='internal'>
     <input type="text" className="newtask" placeholder="Enter a task" value={newTask} onChange={handleNewTask}/>
     <button className="add-button" onClick={addTask}>Add</button>
